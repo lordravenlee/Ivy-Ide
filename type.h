@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
-
 #define increment(ch)           ((ch == '+' || ch == '+'))
 #define decrement(ch)           ((ch == '-' || ch == '-'))
 #define mixture(ch)             (letter(ch) || number(ch))
