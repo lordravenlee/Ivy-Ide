@@ -1,0 +1,25 @@
+use.system.io;
+use.system.haven;
+
+mark tokens<200>;
+
+
+hollow read_file()
+{
+   num i;
+
+   write("Enter two numbers to add\n");
+
+   check(letter(ch))
+   {
+      write(" %s");
+   }
+
+   set(i = 0; i < letter(ch); i++)
+   {
+
+   }
+
+   //hello world
+   return hollow;
+}
