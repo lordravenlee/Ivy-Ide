@@ -1,9 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <string.h>
 
-#define increment(ch)           ((ch == '+' || ch == '+'))
-#define decrement(ch)           ((ch == '-' || ch == '-'))
+#define enfi EOF
+
+#define increment(ch)           ((ch == '+' && ch == '+'))
+#define decrement(ch)           ((ch == '-' && ch == '-'))
 #define mixture(ch)             (letter(ch) || number(ch))
 
 int letter(int ch)
@@ -55,6 +56,16 @@ int strand(int ch)
 int comment(int ch)
 {
 	return ((ch == '/'));
+}
+
+int single_quote(int ch)
+{
+	return ((ch == '\''));
+}
+
+int double_quote(int ch)
+{
+	return ((ch == '\"'));
 }
 
 int nuller(int ch)
